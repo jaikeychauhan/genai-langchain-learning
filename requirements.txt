@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+dotenv
+langchain-huggingface
+streamlit
+langchain-ollama
+langchain-groq    
+langchain-community
+langgraph
