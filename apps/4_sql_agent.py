@@ -82,7 +82,7 @@ for message in st.session_state.messages:
 
 prompt=st.chat_input("Ask me to manage any task");
 
-
+#This code is for connecting SQL with Langchain
 if prompt:
     st.chat_message("user").markdown(prompt)
     st.session_state.messages.append({"role":"user","content":prompt})
